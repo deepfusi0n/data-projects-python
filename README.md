@@ -1,7 +1,9 @@
-# Web Scraping and Data Projects – Python
+# Python Data Projects
 
-This repository highlights applied Python work focused on **web scraping, Excel automation, and data analysis**.  
-Projects show how I’ve used Python to gather real-world data, transform it, and prepare it for insights.
+This repository highlights applied Python work across **web scraping, Excel automation, and data analysis**.  
+It demonstrates my ability to collect real-world data, transform it, and build reproducible workflows that generate insights.
+
+---
 
 ## Project Categories
 
@@ -23,6 +25,8 @@ Projects show how I’ve used Python to gather real-world data, transform it, an
 
 ### Miscellaneous
 - **misc/** — Additional scripts and prototypes, including general data processing examples.
+
+---
 
 ## How to Run
 1. Clone this repo or download a project folder.  
