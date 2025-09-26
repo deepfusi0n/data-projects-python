@@ -1,6 +1,6 @@
 # Python Data Projects
 
-This repository highlights applied Python work across **web scraping, Excel automation, and data analysis**.  
+This repository highlights applied Python work across **web scraping, Excel automation, API integration, and data analysis**.  
 It demonstrates my ability to collect real-world data, transform it, and build reproducible workflows that generate insights.
 
 ---
@@ -17,6 +17,12 @@ It demonstrates my ability to collect real-world data, transform it, and build r
 - **excel-automation/** — Moves data between Excel and Python: cleaning, transformation, and export.  
   Demonstrates ETL (Extract, Transform, Load) workflows.
 
+### API Projects
+- **api-calls/** — Demonstrates API integration and data retrieval.  
+  - `fbi.py`: Fetches data from FBI’s public crime API.  
+  - `chucknorris.py`: Retrieves random jokes via the Chuck Norris API.  
+  These projects showcase how to interact with REST APIs and handle JSON responses in Python.
+
 ### NFL Player Analysis
 - **nfl-analysis/** — Data analysis project using a raw NFL players dataset (`NFL-players.csv`).  
   - Cleaned and prepared the dataset using pandas.  
@@ -30,9 +36,9 @@ It demonstrates my ability to collect real-world data, transform it, and build r
 
 ## How to Run
 1. Clone this repo or download a project folder.  
-2. Install dependencies: pip install -r requirements.txt
-3. Navigate to the desired folder and run: python scriptname.py
-4. Outputs (CSV/Excel) are saved locally as defined in each script.
+2. Install dependencies:  pip install -r requirements.txt
+3. Navigate to the desired folder and run:
+4. Outputs (CSV/Excel/JSON) are saved locally as defined in each script.
 
 ---
 
@@ -44,4 +50,5 @@ It demonstrates my ability to collect real-world data, transform it, and build r
 
 ## Notes
 - Web scraping projects respect site terms of service and are for **educational/portfolio use**.  
-- The NFL project highlights data cleaning and analysis workflows without machine learning.
+- The NFL project highlights data cleaning and analysis workflows without machine learning.  
+- API projects demonstrate calling REST endpoints, parsing JSON, and integrating external data.
